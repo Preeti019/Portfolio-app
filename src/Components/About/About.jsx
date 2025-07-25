@@ -1,51 +1,55 @@
 import React from 'react';
 import './About.css';
-import aboutImage from '/src/assets/images/img1.png'; 
+import aboutImage from '/src/assets/images/img1.png';
 
-import { FaCode, FaServer, FaLaptopCode } from 'react-icons/fa';  
+import { FaMobileAlt, FaLaptopCode, FaServer } from 'react-icons/fa';
+
 const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="about-container">
-        
+
+        {/* Left Image Section */}
         <div className="about-image">
-          <img src={aboutImage} alt="Web Developer" />
+          <img src={aboutImage} alt="React Native Developer" />
         </div>
-        
+
+        {/* Right Content Section */}
         <div className="about-content">
           <h2>About <span>Me</span></h2>
-          <h3>Frontend Web Developer</h3>
-          
+          <h3>React Native Developer</h3>
+
           <p>
-            Hi, I'm Preeti Yadav, a passionate and motivated Frontend Web Developer with a strong foundation in HTML, CSS, JavaScript, and React.js. 
-            I enjoy building responsive, user-friendly websites and continuously improving my skills through practice and projects.
+            Hi, I'm Preeti Yadav, a passionate and motivated React Native Developer with a strong foundation in mobile app development, 
+            JavaScript (ES6+), React.js, and React Native. I enjoy creating cross-platform, user-friendly apps and continuously 
+            enhancing my skills through real-world projects and problem-solving.
           </p>
-          
+
           <p>
-            I am currently focused on frontend development but I’m eager to learn backend technologies like Node.js, Express, and databases to become a Full Stack Developer in the future.
+            I am currently focused on building mobile apps but I’m eager to expand my expertise into backend technologies, APIs, and deployment 
+            to become a Full Stack Mobile Developer in the future.
           </p>
-          
+
+          {/* Skills Section */}
           <div className="skills-grid">
             <div className="skill-item">
-              <FaCode className="skill-icon" />
-              <h4>Frontend</h4>
-              <p>HTML5, CSS3, JavaScript, React.js, Responsive Design</p>
+              <FaMobileAlt className="skill-icon" />
+              <h4>Mobile Development</h4>
+              <p>React Native, Expo, Redux, Navigation, REST APIs</p>
             </div>
-            
+
             <div className="skill-item">
               <FaLaptopCode className="skill-icon" />
-              <h4>Learning</h4>
-              <p>Backend Development, Node.js, Express.js, APIs</p>
+              <h4>Frontend & Web</h4>
+              <p>React.js, HTML5, CSS3, JavaScript, Responsive UI</p>
             </div>
-            
+
             <div className="skill-item">
               <FaServer className="skill-icon" />
               <h4>Future Goals</h4>
-              <p>Full Stack Development, Database Management, Deployment</p>
+              <p>Backend Development, Node.js, API Integration</p>
             </div>
           </div>
-          
-          <button className="about-btn">Download CV</button>
         </div>
       </div>
     </section>

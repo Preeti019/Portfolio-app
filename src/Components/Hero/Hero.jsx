@@ -6,11 +6,17 @@ const Hero = () => {
   return (
     <div className='hero'>
       <img src={heroImage} alt="Preeti Yadav" className="hero-image" />
-      <h1>I'm <span>Preeti Yadav</span>, Frontend Developer</h1>
-      <p>Seeking an entry-level opportunity with an esteemed organization where I can utilize my skills and enhance learning in the field of software development. Capable of mastering new technologies</p>
+      <h1>
+        I'm <span>Preeti Yadav</span>, React Native Developer
+      </h1>
+      <p>
+        I'm looking for an entry-level position with a reputable company where I can put my skills to use and further my education in software development and mobile apps. able to contribute successfully to team success and pick up new technologies fast.
+      </p>
       <div className="hero-actions">
-        <button className="hero-connect">Connect With Me</button>
-        <button className="hero-resume">My Resume</button>
+        <a href="#contact" className="hero-connect">Connect With Me</a>
+        <a href="https://drive.google.com/file/d/1AOgKlOsoPwqMIlwoe5pvsgCIYn_S1GZ-/view?usp=drive_link" className="hero-resume" target="_blank" rel="noopener noreferrer">
+          My Resume
+        </a>
       </div>
     </div>
   );

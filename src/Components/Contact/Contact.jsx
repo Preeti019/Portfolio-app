@@ -67,15 +67,7 @@ const Contact = () => {
                 <a href="mailto:preetiy1019@gmail.com">preetiy1019@gmail.com</a>
               </div>
             </div>
-
-            <div className="info-item">
-              <FiPhone className="info-icon" />
-              <div>
-                <h4>Phone</h4>
-                <a href="tel:+91-9044933446">+91-9044933446</a>
-              </div>
-            </div>
-
+            
             <div className="info-item">
               <FiMapPin className="info-icon" />
               <div>
