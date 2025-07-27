@@ -1,20 +1,25 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌟 Preeti Yadav's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and professional portfolio website built with **React.js** and styled with custom CSS.  
+This website showcases my skills, projects, and contact details with an elegant and user-friendly UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Fully responsive design for all devices.
+- Smooth scrolling and navigation with a sticky navbar.
+- Detailed "About Me" section with skills and expertise.
+- Interactive project showcase with GitHub and live demo links.
+- Contact form for direct communication.
+- Optimized for fast performance and SEO.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Portfolio-app" 
-"# Portfolio-app" 
-"# Portfolio-app" 
-=======
-# Portfolio-app
-My personal portfolio website built with React.js to showcase my web development projects, skills, and experience.  Includes responsive layouts, smooth transitions, and a professional design.
->>>>>>> b25638527dfabefd9aea0dde816ce0f3fa32d5f7
+## 🛠 Tech Stack
+- **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+)
+- **Icons:** React Icons (FontAwesome, Material Icons)
+- **Hosting:** Render
+
+---
+
+## 📂 Folder Structure
