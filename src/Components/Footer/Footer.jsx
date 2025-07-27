@@ -21,16 +21,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="footer-top-right">
-            <div className="footer-newsletter">
-              <h4>Subscribe to my Newsletter</h4>
-              <div className="footer-email-input">
-                <FontAwesomeIcon icon={faEnvelope} className="email-icon" />
-                <input type="email" placeholder='Enter your email address' />
-                <button className='footer-subscribe'>Subscribe</button>
-              </div>
-            </div>
-          </div>
+          
         </div>
         
         <hr className="footer-divider" />
@@ -39,11 +30,7 @@ const Footer = () => {
           <div className="footer-bottom-left">
             <p>© {new Date().getFullYear()} Preeti Yadav. All rights reserved.</p>
           </div>
-          <div className="footer-bottom-right">
-            <a href="/terms"><FontAwesomeIcon icon={faFileAlt} /> Terms of Service</a>
-            <a href="/privacy"><FontAwesomeIcon icon={faFileAlt} /> Privacy Policy</a>
-            <a href="/contact"><FontAwesomeIcon icon={faPhone} /> Contact</a>
-          </div>
+          
         </div>
       </div>
     </footer>

@@ -5,7 +5,6 @@ import About from "./Components/About/About";
 import Work from "./Components/Work/Work";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import './theme.css';
 
 
 const App = () => {
